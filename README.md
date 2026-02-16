@@ -1,6 +1,6 @@
 # 🚀 Tunnel System - Self-Hosted ngrok Alternative
 
-A complete, production-ready solution for exposing local applications to the internet via SSH reverse tunnels with automatic HTTPS certificates and a modern web dashboard.
+A complete solution for exposing local applications to the internet via SSH reverse tunnels with automatic HTTPS certificates and a modern web dashboard.
 
 ## Features
 
@@ -49,7 +49,7 @@ tunnel-system/
 ssh root@your-vps-ip
 
 # Download and run setup script
-curl -fsSL https://raw.githubusercontent.com/yourusername/tunnel-system/main/scripts/setup-vps.sh | sudo bash
+curl -fsSL https://github.com/Shankar7318/tunnel-system.git/main/scripts/setup-vps.sh | sudo bash
 
 # Edit configuration
 nano .env
@@ -317,15 +317,6 @@ Contributions welcome! Please:
 2. Create a feature branch
 3. Submit a pull request
 
-## License
-
-MIT License - see LICENSE file
-
-## Support
-
-- 📖 [Documentation](docs/)
-- 🐛 [Issues](https://github.com/yourusername/tunnel-system/issues)
-- 💬 [Discussions](https://github.com/yourusername/tunnel-system/discussions)
 
 ## Roadmap
 
